@@ -1,9 +1,12 @@
 
-import logo from './gg.jpg'
-import GetApi from './GetApi'
+
 
 function Component(props) {
 
+   const refreshPage = ()=>{
+      window.location.reload();
+   }
+   
 return(
     
     <>
@@ -21,7 +24,7 @@ return(
 
 
 
-
+<button onClick={refreshPage}>Refresh</button>
     </>
 )
 }

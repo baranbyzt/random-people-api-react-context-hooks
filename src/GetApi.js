@@ -7,8 +7,6 @@ import axios from 'axios'
 import Component from "./Component";
 
 
-
-
 function GetApi() {
 
     const [username, setUsername] = useState([]);

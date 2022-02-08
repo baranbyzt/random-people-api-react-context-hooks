@@ -33,3 +33,13 @@ img{
   margin-right: 50px;
 
 }
+
+button {
+  padding: 10px;
+  background-color: brown;
+  color: white;
+border-radius: 10px;
+width: 100px;
+margin-top: 50px;
+margin-left: 180px;
+}
